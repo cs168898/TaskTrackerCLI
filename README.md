@@ -29,20 +29,20 @@
 1. **Clone this repository**
 
    ```bash
-   git clone https://github.com/your-username/task-tracker-cli.git
-   cd task-tracker-cli
+   git clone https://github.com/cs168898/TaskTrackerCLI
+   cd src/out/prod
    ```
 
 2. **Compile the program (for Java)**
 
    ```bash
-   javac Main.java
+   javac *.java
    ```
 
 3. **Run the CLI**
 
    ```bash
-   java Main [command] [arguments...]
+   java TaskTrackerCLI  [command] [arguments...]
    ```
 
 > The app will create a `tasks.json` file in the current directory if it doesn't exist.
