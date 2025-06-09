@@ -61,7 +61,7 @@ Output: `Task added successfully (ID: 1)`
 
 ---
 
-### ✏Update an Existing Task
+### Update an Existing Task
 
 ```bash
 TaskTrackerCLI update 1 "Buy groceries and cook dinner"
